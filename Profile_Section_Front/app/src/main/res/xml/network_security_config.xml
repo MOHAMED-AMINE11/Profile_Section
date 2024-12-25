@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Autoriser les connexions HTTP non sécurisées pour l'adresse IP spécifiée -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.43.143</domain> <!-- Remplacez par votre adresse IP -->
+    </domain-config>
+</network-security-config>
